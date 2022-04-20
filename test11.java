@@ -6,14 +6,14 @@ class test11 {
     // System.out.println(school.substring(i, i + 1));
     // }
 
-    // while (i < school.length()) {
-    // System.out.println(school.substring(i, i + 1));
-    // i++;
-    // }
-
     while (i < school.length()) {
-      System.out.println(school.charAt(i));
+      System.out.println(school.substring(i, i + 1));
       i++;
     }
+
+    // while (i < school.length()) {
+    // System.out.println(school.charAt(i));
+    // i++;
+    // }
   }
 }
