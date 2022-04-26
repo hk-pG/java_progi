@@ -28,10 +28,10 @@ class Person {
 public class test14 {
 	public static void main(String[] args) {
 		Person tanaka = new Person();
-		tanaka.setName("Tanaka");
-		tanaka.setAge(26);
+		tanaka.SetName("Tanaka");
+		tanaka.SetAge(26);
 
-		Person suzuki;
+		Person suzuki = new Person();
 		suzuki.myName = "Suzuki";
 		suzuki.myAge = 32;
 
