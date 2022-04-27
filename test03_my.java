@@ -1,4 +1,4 @@
-public class test03 {
+public class test03_my {
 	public static void main(String[] args) {
 		String moji = "Hello World!!";
 		// ^^^^^^^^^^^^^^^^^^^^^^^^^^^
