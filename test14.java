@@ -1,5 +1,6 @@
 class Person {
 	String myName;
+	// private int myAge;
 	int myAge;
 
 	public void SetName(String name) {
@@ -12,6 +13,12 @@ class Person {
 	}
 
 	public void SetAge(int age) {
+		// if (age < 0) {
+		// System.out.println("年齢に負数" + age + "は登録できません");
+		// myAge = 0;
+		// } else {
+		// myAge = age;
+		// }
 		myAge = age;
 		PrintSet();
 	}
@@ -33,7 +40,8 @@ public class test14 {
 
 		Person suzuki = new Person();
 		suzuki.myName = "Suzuki";
-		suzuki.myAge = 32;
+		// suzuki.myAge = 32;
+		suzuki.SetAge(-21);
 
 		System.out.println(tanaka.GetName());
 		System.out.println(tanaka.GetAge());

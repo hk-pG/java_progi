@@ -1,7 +1,10 @@
 /**
  * test16
  */
-public class test16 {
+class test16 {
+	// String toroku = "String";
+	// int toroku = "int";
+
 	void toroku(String name, String country) {
 		System.out.println("名前は" + name);
 		System.out.println("国は" + country);

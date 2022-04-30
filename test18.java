@@ -10,17 +10,23 @@ public class test18 {
 		ei.exeClass();
 	}
 
-	private class InInner {
+	void exeClass() {
+		InInner ii = new InInner();
+		ii.inMethod();
+		// ii.obj.exeClass();
+	}
+
+	public class InInner {
 		private String inMsg = "InInnerクラスのメンバ変数";
+		// public test18 obj = new test18();
 
 		void inMethod() {
 			System.out.println(exMsg);
 			System.out.println(inMsg);
 		}
-	}
 
-	void exeClass() {
-		InInner ii = new InInner();
-		ii.inMethod();
+		// void callBackOuter() {
+		// obj.exeClass();
+		// }
 	}
 }

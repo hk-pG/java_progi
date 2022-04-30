@@ -18,6 +18,7 @@ class Person {
 		} else {
 			myAge = age;
 		}
+		// myAge = age;
 		PrintSet();
 	}
 
@@ -51,7 +52,7 @@ class Person {
 /**
  * test17
  */
-public class test17 {
+class test17 {
 
 	public static void main(String[] args) {
 		Person tanaka = new Person();

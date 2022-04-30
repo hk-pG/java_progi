@@ -2,6 +2,12 @@ class Person {
 	String myName;
 	int myAge;
 
+	// private Person(String name, int age) {
+	Person(String name, int age) {
+		myName = name;
+		myAge = age;
+	}
+
 	public void SetName(String name) {
 		myName = name;
 		PrintSet();
@@ -22,11 +28,6 @@ class Person {
 
 	public void PrintSet() {
 		System.out.println("Set Value!!");
-	}
-
-	public Person(String name, int age) {
-		myName = name;
-		myAge = age;
 	}
 }
 
