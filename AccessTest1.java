@@ -20,7 +20,7 @@ class AccessTest2 extends AccessTest1 {
 		this.publicValue = 1;
 		this.protectedValue = 2;
 		this.normalValue = 3;
-		// this.protectedValue = 4;
+		// this.privateValue = 4;
 	}
 }
 
