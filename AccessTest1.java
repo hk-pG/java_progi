@@ -5,6 +5,7 @@ public class AccessTest1 {
 	private int privateValue;
 
 	public static void main(String[] args) {
+		System.out.println("COMPLETE");
 	}
 
 	public AccessTest1() {
