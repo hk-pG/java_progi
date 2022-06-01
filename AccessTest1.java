@@ -2,7 +2,7 @@ public class AccessTest1 {
 	public int publicValue;
 	protected int protectedValue;
 	int normalValue;
-	private int privateValue;
+	// private int privateValue;
 
 	public static void main(String[] args) {
 		System.out.println("COMPLETE");
@@ -12,7 +12,7 @@ public class AccessTest1 {
 		this.publicValue = 1;
 		this.protectedValue = 2;
 		this.normalValue = 3;
-		this.privateValue = 4;
+		// this.privateValue = 4;
 	}
 }
 
