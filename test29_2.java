@@ -2,7 +2,7 @@ import java.awt.*;
 
 public class test29_2 extends Frame {
 	public static void main(String[] args) {
-		new test29_3();
+		new test29_2();
 	}
 
 	test29_2() {

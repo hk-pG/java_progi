@@ -8,3 +8,4 @@ java test29_3
 java test29_4
 java test29_5
 java test29_6
+java test30
