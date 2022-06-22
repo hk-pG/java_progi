@@ -3,7 +3,7 @@ import java.awt.event.*;
 
 public class test41 extends Frame implements ActionListener {
 	public static void main(String[] args) {
-		new test42();
+		new test41();
 	}
 
 	test41() {

@@ -1,20 +1,16 @@
 import java.awt.*;
 import java.awt.event.*;
 
-/**
- * test40
- */
-public class test40 extends Frame {
-
+class test40 extends Frame {
 	public static void main(String[] args) {
 		new test40();
 	}
 
 	test40() {
-		setTitle("DialogTest");
-		setSize(200, 120);
+		super("DialogTest");
+		setSize(200, 100);
 		MyDialog dlg = new MyDialog(this);
-		// dlg.setSize(200, 120);
+		dlg.setVisible(true);
 		setVisible(true);
 	}
 }
@@ -31,7 +27,6 @@ class MyDialog extends Dialog implements ActionListener {
 	}
 
 	public void actionPerformed(ActionEvent e) {
-		// hide();
 		setVisible(false);
 	}
 }

@@ -1,12 +1,11 @@
 #!/bin/bash
 
-javac test28.java
-javac test29.java
-
-javac test29_1.java
-javac test29_2.java
-javac test29_3.java
-javac test29_4.java
-javac test29_5.java
-javac test29_6.java
-javac test30.java
+javac test41.java
+javac test42.java
+javac test43.java
+javac test44.java
+javac test45.java
+javac test46.java
+javac test47.java
+javac test48.java
+javac test49.java
