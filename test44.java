@@ -25,7 +25,7 @@ public class test44 extends Frame implements MouseListener {
 	}
 
 	public void mouseReleased(MouseEvent e) {
-		System.out.println("MousePressed");
+		System.out.println("MouseReleased");
 	}
 
 	public void mouseEntered(MouseEvent e) {
