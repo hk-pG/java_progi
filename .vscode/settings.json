@@ -1,4 +1,5 @@
 {
   "cSpell.words": ["hikisuu", "moji", "sato", "tanaka", "toroku"],
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Ayu Dark Bordered"
 }

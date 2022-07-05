@@ -1,3 +1,5 @@
+package list;
+
 public class List<T> {
     private T data;
     private List<T> next;
