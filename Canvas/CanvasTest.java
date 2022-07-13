@@ -86,6 +86,7 @@ class CanvasTest extends Frame implements ActionListener {
 
 	public static void main(String args[]) {
 		// CanvasTest のインスタンスを作成 frame に代入
-		CanvasTest frame = new CanvasTest();
+		// CanvasTest frame = new CanvasTest();
+		new CanvasTest();
 	}
 }
