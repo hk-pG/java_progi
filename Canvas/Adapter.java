@@ -12,6 +12,13 @@ public class Adapter extends Frame {
 	Adapter() {
 		super("Window");
 		this.addWindowListener(new MyWindowListener());
+		this.addMouseMotionListener(
+				new MouseMotionAdapter() {
+					public void mouseDragged(MouseEvent e) {
+						System.out.println("mouseDragged");
+					}
+				});
+
 		setSize(200, 100);
 		setVisible(true);
 	}
