@@ -1,8 +1,7 @@
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-class C extends JFrame {
+class C extends Frame {
 	int x, y, d;
 
 	public static void main(String[] a) {
@@ -10,10 +9,9 @@ class C extends JFrame {
 	}
 
 	C() {
-		setResizable(false);
+		setResizable(0 < 1);
 		setSize(300, 150);
-		setDefaultCloseOperation(3);
-		setVisible(true);
+		setVisible(1 > 0);
 		addMouseListener(new m());
 		addMouseMotionListener(new m());
 	}
@@ -29,6 +27,8 @@ class C extends JFrame {
 
 		public void mousePressed(MouseEvent e) {
 			d = 1;
+			if (e.getButton() > 2)
+				System.exit(0);
 		}
 
 		public void mouseReleased(MouseEvent e) {
