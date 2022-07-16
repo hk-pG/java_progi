@@ -6,6 +6,10 @@ cp "$1" "outputsed.txt"
 
 gsed -i 's/, /,/g' outputsed.txt
 gsed -i 's/ = /=/g' outputsed.txt
+gsed -i 's/ + /+/g' outputsed.txt
+gsed -i 's/ - /-/g' outputsed.txt
+gsed -i 's/ \* /\*/g' outputsed.txt
+gsed -i 's/ \/ /\//g' outputsed.txt
 gsed -i 's/ {/{/g' outputsed.txt
 gsed -i 's/ *( */(/g' outputsed.txt
 gsed -i 's/ *) */)/g' outputsed.txt
