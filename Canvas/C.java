@@ -2,13 +2,13 @@ import java.awt.*;
 import java.awt.event.*;
 
 class C extends Frame {
-	int d, t = 300;
+	int d, r = 300;
 	MouseEvent E;
 	MouseAdapter M = new MouseAdapter() {
 		public void mouseReleased(MouseEvent e) {
+			d = 0;
 			if (e.getButton() > 2)
 				System.exit(0);
-			d = 0;
 		}
 
 		public void mouseDragged(MouseEvent e) {
@@ -23,16 +23,16 @@ class C extends Frame {
 
 	C() {
 		setResizable(0 > 1);
-		setSize(t, t);
+		setSize(r, r);
 		setVisible(1 > 0);
 		addMouseListener(M);
 		addMouseMotionListener(M);
 	}
 
 	public void paint(Graphics g) {
-		g.clearRect(0, 0, t, t);
+		g.clearRect(0, 0, r, r);
 		if (d > 0)
-			g.drawLine(t / 2, t / 2, E.getX(), E.getY());
+			g.drawLine(r / 2, r / 2, E.getX(), E.getY());
 		repaint();
 	}
 }
